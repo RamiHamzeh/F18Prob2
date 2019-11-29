@@ -1,0 +1,5 @@
+echo "Please enter any sentence"
+read foo
+var=$(echo $foo | tr "{a-z}" "{A-Z}")
+var=$(echo $foo | tr "e" "o")
+
